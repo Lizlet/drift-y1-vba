@@ -94,6 +94,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Practicals\Constructor.vb" />
+    <Compile Include="Practicals\Practical 09 - Security\P09UC.Designer.vb">
+      <DependentUpon>P09UC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Practicals\Practical 09 - Security\P09UC.vb" />
+    <Compile Include="Practicals\Task.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -118,6 +124,7 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
