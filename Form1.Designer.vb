@@ -25,7 +25,7 @@ Partial Class Form1
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.PracticalsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ViewSourceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PasswordHandlingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.P09TSMI = New System.Windows.Forms.ToolStripMenuItem()
         Me.SubmitTSMI = New System.Windows.Forms.ToolStripMenuItem()
         Me.contentPanel = New System.Windows.Forms.Panel()
         Me.MenuStrip1.SuspendLayout()
@@ -43,7 +43,7 @@ Partial Class Form1
         '
         'PracticalsToolStripMenuItem
         '
-        Me.PracticalsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ViewSourceToolStripMenuItem, Me.PasswordHandlingToolStripMenuItem})
+        Me.PracticalsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ViewSourceToolStripMenuItem, Me.P09TSMI})
         Me.PracticalsToolStripMenuItem.Name = "PracticalsToolStripMenuItem"
         Me.PracticalsToolStripMenuItem.Size = New System.Drawing.Size(83, 24)
         Me.PracticalsToolStripMenuItem.Text = "Practicals"
@@ -54,11 +54,11 @@ Partial Class Form1
         Me.ViewSourceToolStripMenuItem.Size = New System.Drawing.Size(237, 26)
         Me.ViewSourceToolStripMenuItem.Text = "View source"
         '
-        'PasswordHandlingToolStripMenuItem
+        'P09TSMI
         '
-        Me.PasswordHandlingToolStripMenuItem.Name = "PasswordHandlingToolStripMenuItem"
-        Me.PasswordHandlingToolStripMenuItem.Size = New System.Drawing.Size(237, 26)
-        Me.PasswordHandlingToolStripMenuItem.Text = "09 - Password handling"
+        Me.P09TSMI.Name = "P09TSMI"
+        Me.P09TSMI.Size = New System.Drawing.Size(237, 26)
+        Me.P09TSMI.Text = "09 - Password handling"
         '
         'SubmitTSMI
         '
@@ -99,7 +99,7 @@ Partial Class Form1
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents PracticalsToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ViewSourceToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents PasswordHandlingToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents P09TSMI As ToolStripMenuItem
     Friend WithEvents SubmitTSMI As ToolStripMenuItem
     Friend WithEvents contentPanel As Panel
 End Class
