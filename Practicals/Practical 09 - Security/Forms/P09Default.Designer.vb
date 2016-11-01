@@ -1,4 +1,4 @@
-﻿Namespace Practicals.Practical09
+﻿Namespace Practicals.Practical09.Forms
     <Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
     Partial Class P09Default
         Inherits System.Windows.Forms.UserControl

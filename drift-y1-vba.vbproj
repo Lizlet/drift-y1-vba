@@ -95,22 +95,23 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Practicals\Constructor.vb" />
-    <Compile Include="Practicals\Practical 09 - Security\P09Default.Designer.vb">
+    <Compile Include="Practicals\Practical 09 - Security\Forms\P09Default.Designer.vb">
       <DependentUpon>P09Default.vb</DependentUpon>
     </Compile>
-    <Compile Include="Practicals\Practical 09 - Security\P09Default.vb">
+    <Compile Include="Practicals\Practical 09 - Security\Forms\P09Default.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Practicals\Practical 09 - Security\P09SignIn.Designer.vb">
+    <Compile Include="Practicals\Practical 09 - Security\Forms\P09Form.vb" />
+    <Compile Include="Practicals\Practical 09 - Security\Forms\P09SignIn.Designer.vb">
       <DependentUpon>P09SignIn.vb</DependentUpon>
     </Compile>
-    <Compile Include="Practicals\Practical 09 - Security\P09SignIn.vb">
+    <Compile Include="Practicals\Practical 09 - Security\Forms\P09SignIn.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Practicals\Practical 09 - Security\P09SignUp.Designer.vb">
+    <Compile Include="Practicals\Practical 09 - Security\Forms\P09SignUp.Designer.vb">
       <DependentUpon>P09SignUp.vb</DependentUpon>
     </Compile>
-    <Compile Include="Practicals\Practical 09 - Security\P09SignUp.vb">
+    <Compile Include="Practicals\Practical 09 - Security\Forms\P09SignUp.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Practicals\Practical 09 - Security\P09UC.Designer.vb">
@@ -131,13 +132,13 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Practicals\Practical 09 - Security\P09Default.resx">
+    <EmbeddedResource Include="Practicals\Practical 09 - Security\Forms\P09Default.resx">
       <DependentUpon>P09Default.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Practicals\Practical 09 - Security\P09SignIn.resx">
+    <EmbeddedResource Include="Practicals\Practical 09 - Security\Forms\P09SignIn.resx">
       <DependentUpon>P09SignIn.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Practicals\Practical 09 - Security\P09SignUp.resx">
+    <EmbeddedResource Include="Practicals\Practical 09 - Security\Forms\P09SignUp.resx">
       <DependentUpon>P09SignUp.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Practicals\Practical 09 - Security\P09UC.resx">
