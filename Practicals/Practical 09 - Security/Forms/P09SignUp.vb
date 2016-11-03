@@ -40,5 +40,16 @@
                 TextBox3.BackColor = Color.White
             End If
         End Sub
+
+        Private Sub textbox_KeyDown(sender As Object, e As KeyEventArgs) Handles _
+                TextBox1.KeyDown, TextBox2.KeyDown, TextBox3.KeyDown
+            If e.KeyCode = Keys.Enter Then
+                Me.Submitted()
+            End If
+        End Sub
+
+        Private Sub P09SignUp_Load(sender As Object, e As EventArgs) Handles Me.Load
+            TextBox1.Focus()
+        End Sub
     End Class
 End Namespace
