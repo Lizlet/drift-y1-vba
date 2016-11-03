@@ -78,6 +78,7 @@
             Me.TextBox2.Name = "TextBox2"
             Me.TextBox2.Size = New System.Drawing.Size(237, 36)
             Me.TextBox2.TabIndex = 5
+            Me.TextBox2.UseSystemPasswordChar = True
             '
             'Button1
             '

@@ -79,6 +79,7 @@
             Me.TextBox2.Name = "TextBox2"
             Me.TextBox2.Size = New System.Drawing.Size(237, 36)
             Me.TextBox2.TabIndex = 4
+            Me.TextBox2.UseSystemPasswordChar = True
             '
             'TextBox3
             '
@@ -88,6 +89,7 @@
             Me.TextBox3.Name = "TextBox3"
             Me.TextBox3.Size = New System.Drawing.Size(237, 36)
             Me.TextBox3.TabIndex = 5
+            Me.TextBox3.UseSystemPasswordChar = True
             '
             'Label4
             '
