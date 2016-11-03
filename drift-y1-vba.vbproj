@@ -94,6 +94,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="PracCrypto\Crypto.vb" />
+    <Compile Include="PracCrypto\Password.vb" />
     <Compile Include="Practicals\Constructor.vb" />
     <Compile Include="Practicals\Practical 09 - Security\Forms\P09Default.Designer.vb">
       <DependentUpon>P09Default.vb</DependentUpon>
@@ -120,6 +122,8 @@
     <Compile Include="Practicals\Practical 09 - Security\P09UC.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="Practicals\Practical 09 - Security\Users\User.vb" />
+    <Compile Include="Practicals\Practical 09 - Security\Users\UserList.vb" />
     <Compile Include="Practicals\Task.vb" />
   </ItemGroup>
   <ItemGroup>
