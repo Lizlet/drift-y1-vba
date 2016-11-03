@@ -6,7 +6,6 @@
         Public Sub New(hash As String, salt As String)
             Me.hash = hash
             Me.salt = salt
-            MsgBox(Me.hash)
         End Sub
 
         Public Function CheckPassword(password As String) As Boolean

@@ -9,7 +9,7 @@
         End Sub
 
         Public Sub Submitted() Implements P09Form.Submitted
-            Throw New NotImplementedException()
+            owner.login(TextBox1.Text, TextBox2.Text)
         End Sub
 
         Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click

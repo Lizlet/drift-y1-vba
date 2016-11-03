@@ -26,5 +26,9 @@
         Public Sub addNewUser(username As String, password As String)
             userList.AddUser(username, PracCrypto.hashAndSalt(password))
         End Sub
+
+        Public Sub login(username As String, password As String)
+            userList.login(username, password)
+        End Sub
     End Class
 End Namespace

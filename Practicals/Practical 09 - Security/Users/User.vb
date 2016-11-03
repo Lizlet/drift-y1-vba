@@ -6,6 +6,7 @@
         Public Sub New(username As String, password As PracCrypto.Password)
             Me.username = username
             Me.password = password
+            MsgBox("successfully created " & Me.username)
         End Sub
 
         Public Function authenticate(username As String, password As String)
