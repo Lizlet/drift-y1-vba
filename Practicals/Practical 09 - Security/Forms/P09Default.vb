@@ -11,5 +11,13 @@
         Public Sub Submitted() Implements P09Form.Submitted
             Throw New NotImplementedException()
         End Sub
+
+        Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+            owner.changeForm(New P09SignIn(owner))
+        End Sub
+
+        Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+            owner.changeForm(New P09SignUp(owner))
+        End Sub
     End Class
 End Namespace

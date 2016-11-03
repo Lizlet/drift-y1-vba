@@ -27,8 +27,9 @@
             '
             'P09UC
             '
-            Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+            Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 28.0!)
             Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+            Me.Font = New System.Drawing.Font("Calibri", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
             Me.Margin = New System.Windows.Forms.Padding(0)
             Me.Name = "P09UC"
             Me.Size = New System.Drawing.Size(267, 363)

@@ -7,6 +7,7 @@
         Me.AutoSize = True
         Me.contentPanel.AutoSizeMode = AutoSizeMode.GrowAndShrink
         Me.contentPanel.AutoSize = True
+        Me.contentPanel.Controls.Add(Practicals.Constructor.InstantiateTask(Me, P09TSMI))
     End Sub
 
     Private Sub SubmitTSMI_Click(sender As Object, e As EventArgs) Handles SubmitTSMI.Click
